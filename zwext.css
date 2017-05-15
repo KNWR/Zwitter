@@ -1,0 +1,8 @@
+/* All goes toward hiding images, video players. */
+.AdaptiveMedia-container, 
+img, 
+#playerContainer, 
+.AdaptiveMediaOuterContainer,
+.tcu-imageWrapper {
+	display: none !important;
+}

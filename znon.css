@@ -1,0 +1,7 @@
+.profile-card.ProfileCard.with-banner, /* When you hover over someone's hyperlinked @name or name on Twitter, a little profile card with their banner and more info pops up. */ 
+.tweet-timestamp, /* The timestamp. */
+small.time, /* The time posted */
+.username /* The @name part */
+{
+	display: none !important;
+}

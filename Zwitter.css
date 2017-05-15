@@ -1,0 +1,144 @@
+/* Making the backgrounds white. */
+body, 
+#page-container, 
+#pager-outer {
+	background-color: white !important;
+} 
+
+.ProfileSidebar{
+	visibility: hidden;
+}
+
+.ProfileCard-avatarImage, 
+.ProfileCard-bg.js-nav, 
+.avatar, 
+.ProfileAvatar-image, 
+.ProfileTweet-actionList, 
+.ProfileCanopy-header, 
+.stats, 
+.client-and-actions {
+	display: none !important;
+ }
+
+/* No emojis in the name header in each tweet */
+.stream-item-header .Emoji {
+	display: none !important;
+}
+
+.ProfileClusterFollow, 
+.SidebarCommonModules, 
+.ScrollBump--recentlyFollowed {
+ 	display: none;
+ }
+
+.tweet {
+	margin-top: 0px !important;
+	margin-bottom: 10px !important;
+}
+
+.tweet p {
+	/*font-size: 60px !important;
+	line-height: 25px !important; */
+}
+
+.ProfileCanopy-navBar {
+	box-shadow: none !important;
+}
+
+.stream-item {
+	border: none !important;
+	margin-bottom: 0px !important; /* ???? */
+}
+
+.tweet-context.with-icn {
+	margin-bottom: 7px !important;
+}
+
+.ProfileCanopy-header, 
+.ProfileCanopy-card, 
+.ProfileCanopy, 
+.ProfileNav-item--following, 
+.ProfileNav-item--favorites, 
+.ProfileNav-stat--link {
+	display: none !important;
+}
+
+.UserBadges{ 
+	display: none;
+}
+
+/* .global-nav to topbar and .global-nav again are all re: the navigation bar. */
+.global-nav {
+   border-bottom: 0px !important;
+   border-top: 0px;
+}
+		
+.topbar {
+	top: auto !important;
+	border-bottom: 0px !important;
+	bottom: 0 !important;
+	height: 5px;
+	transition-duration: 0.150s;
+}
+
+.topbar:hover {
+	height: 46px;
+	border-bottom: 0px !important;
+
+}
+
+.topbar:hover .global-nav {
+	border-top: 1px solid rgba(0, 0, 0, 0.15) !important;
+	border-bottom: 0px !important;
+}
+
+#mynameis {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+#followholder ul {
+	width: 91.5%;
+	margin: 0;
+	list-style:none !important;
+}
+
+.ProfileNav-item--userActions {
+    height: auto !important;
+    padding: 0 !important;
+    right: auto !important;
+    top: auto !important;
+}
+
+.user-actions-follow-button {
+	vertical-align: none;
+}
+
+/* own profile */ 
+.module.Trends.trends, 
+.flex-module, 
+.dashboard.dashboard-left {
+	visibility: hidden;
+}
+
+/* Hides the People suggestions that come up when searching a topic */
+.AdaptiveStreamUserGallery {
+	display: none;
+}
+
+/* Hiding the who to follow stuff */ 
+li[data-item-type="who_to_follow_entry"] {
+	display: none;
+}
+
+/* Restyling the follow button */
+.user-actions-follow-button {
+	background-color: white !important;
+	color: black !important;
+	border: none !important;
+	background-image: none !important;
+}
+
+.MomentGuideNavigation {
+	top: 0 !important;
+}
